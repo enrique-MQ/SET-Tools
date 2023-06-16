@@ -1,1 +1,85 @@
 
+
+@import url(fonts.css);
+
+    #divExample{
+        margin: 30px;
+        width: 20vw;
+        height: 20vw;
+    }
+
+
+    /* --- DIV EXAMPLE - FONT -- */        
+    .text-custom{
+        color: rgb(17, 212, 7); opacity: 100%;
+        font-size: 22px;
+        font-family: "Encode Sans Bold";                                                        
+    }
+
+    
+    /* --- BACKGROUND -- */        
+    .red-show{        
+        background-color: #ab0033;
+        opacity: 100%;        
+    }
+
+    .gold-show{        
+        background-color: #bc955c;
+        opacity: 100%;        
+    }
+
+    .creme-show{        
+        background-color: #ddc9a3;
+        opacity: 100%;        
+    }
+
+    .gray-show{        
+        background-color: #54565a;
+        opacity: 100%;        
+    }
+
+
+    /* --- BUTTON HOVER-- */
+    button .red-show:hover, .gold-show:hover, .creme-show:hover, .gray-show:hover{                
+        opacity: 80%;        
+    }
+    
+
+    /* --- FONT-- */
+    .txt-red-show{        
+        color: #ab0033;
+        opacity: 100%;        
+    }
+
+    .txt-gold-show{        
+        color: #bc955c;
+        opacity: 100%;        
+    }
+
+    .txt-creme-show{        
+        color: #ddc9a3;
+        opacity: 100%;        
+    }
+
+    .txt-gray-show{        
+        color: #54565a;
+        opacity: 100%;        
+    }
+
+    
+    /* OPACITY */
+    .show-80{                
+        opacity: 80%;        
+    }
+
+    .show-60{                
+        opacity: 60%;        
+    }
+
+    .show-40{                
+        opacity: 40%;        
+    }
+    
+    .show-20{                
+        opacity: 20%;        
+    }
